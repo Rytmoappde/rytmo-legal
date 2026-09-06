@@ -1,15 +1,17 @@
 # Rytmo Legal Site mit GitHub Pages veröffentlichen
 
-Der Ordner enthält eine statische Website ohne Framework, Backend, Cookies, Tracking oder externe Analytics. Vor der Veröffentlichung im App Store muss der markierte Adressplatzhalter in `privacy.html` und `imprint.html` ersetzt werden.
+Der Ordner enthält eine statische Website ohne Framework, Backend, Cookies, Tracking oder externe Analytics. Die ladungsfähige Anschrift ist in `privacy.html` und `imprint.html` eingetragen.
 
-## 1. Release-Blocker zuerst erledigen
+## 1. Anschrift vor der Veröffentlichung prüfen
 
-1. Öffne `privacy.html` und `imprint.html`.
-2. Suche jeweils nach `TODO / RELEASE BLOCKER`.
-3. Ersetze den Platzhalter durch die vollständige ladungsfähige Anschrift.
-4. Trage dieselbe Anschrift in der App unter `src/config/legal.ts` ein.
+Aktuell eingetragen:
 
-Keine öffentliche App-Store-Veröffentlichung durchführen, solange dieser Punkt offen ist.
+```text
+Adalbertstraße 8
+48565 Steinfurt
+```
+
+Prüfe vor der Veröffentlichung, ob diese Anschrift noch aktuell ist, und trage dieselbe Anschrift in der App unter `src/config/legal.ts` ein.
 
 ## 2. GitHub-Repository erstellen
 
